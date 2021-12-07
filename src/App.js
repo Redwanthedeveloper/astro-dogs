@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import HomeScreen from './screens/HomeScreen';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MintScreen from './screens/MintScreen';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import History from './components/History';
+import CatalogScreen from './screens/CatalogScreen';
+import RoadmapScreen from './screens/RoadmapScreen';
+import { useEffect } from 'react';
+import Aos from 'aos';
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      useClassNames: false,
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<HomeScreen />} />
+          <Route path='/mint' element={<MintScreen />} />
+          <Route path='/catalog' element={<CatalogScreen />} />
+          <Route path='/roadmap' element={<RoadmapScreen />} />
+        </Routes>
+        <History />
+        <Footer />
+      </Router>
+    </>
   );
 }
 
