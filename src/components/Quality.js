@@ -11,19 +11,23 @@ const Quality = () => {
               <div className='share__col'>
                 <h4 className='share__title h2'>Turning Up Good&nbsp;Vibes</h4>
                 <div className='share__text h7'>
-                  Tweep tweep!
+                  Doodle Punks
                   <br />
                   <br />
-                  Bitty Tweeps are the new digital pop art darlings of the
-                  Solana NFTs. We are playful, colorful, and downright adorable.
-                  Our goal is to bring joy, happiness, and overall positivity to
-                  the world.
+                  Doodle Punks is a DAO that brings immense value to the etherum
+                  blockchain through the implementation of several high utility
+                  functions: Staking our Utility Token, DAO Treasory, &
+                  Metaverse Development.
                   <br />
                   <br />
-                  Collectively, we are 10101 itty bitty tweeps strong and the
-                  growing community is affectionately referred to as “The Coop.”
-                  Join our exciting journey to take over the metaverse and the
-                  real&nbsp;universe. Tweep tweep!
+                  The Dao Explained:
+                  <br />
+                  Our Token is backed by the fractionalized Treasury (Vault) of
+                  blue-chip NFTs (Doodles & CryptoPunks). As the value of our
+                  Vault increases, the intrinsic value of $CRAYON increases as
+                  well. However, It is essential to consider that 1 $CRAYON = 1
+                  $CRAYON for eternity. The real value of $CRAYON comes from the
+                  utilities within the Doodle Punk ecosystem.
                 </div>
               </div>
               <div className='share__col'>
@@ -50,7 +54,7 @@ const Quality = () => {
           <div className='quality__bottom'>
             <div className='quality__item'>
               <div className='quality__counter'>10101</div>
-              <div className='quality__category'>Generative Bitty Tweeps</div>
+              <div className='quality__category'>Generative Doodle Punks</div>
             </div>
             <div className='quality__item'>
               <div className='quality__counter'>156</div>

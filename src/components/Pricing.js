@@ -11,7 +11,7 @@ const Pricing = () => {
             data-aos='animation-scale-top'
             data-aos-duration={600}
           >
-            Bitty Tweeps Roadmap
+            Doodle Punks Roadmap
           </h2>
           <div className='download__info'>
             We are committed to progressively building, expanding and evolving

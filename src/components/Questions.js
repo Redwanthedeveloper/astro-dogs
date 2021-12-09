@@ -20,27 +20,33 @@ const Questions = () => {
           <div className='questions__list'>
             <div className='questions__item'>
               <Collapsible
-                trigger='How can I get a bitty tweep?'
+                trigger='What is Staking?'
                 className='questions__head'
               >
                 <div className='questions__body'>
-                  Bitty tweeps purchasing happens through our Tweeps Incubator
-                  which can be found via the top navigation of the website. When
-                  minting starts, connect your wallet and push the incubator
-                  button to mint. Follow the simple steps and you will be a
-                  proud owner of a bitty tweep!
+                  When you buy a Doodle Punks NFT, you have the option to stake
+                  it. Staking is the mechanism by which fractional shares of the
+                  DAO community’s vault of NFTs are distributed. These fractions
+                  are distributed daily to holders in the form of our native
+                  $CRAYON token. Each Doodle Punk NFT can be staked to earn 10
+                  $CRAYON's per day. $CRAYON tokens can also be traded on the
+                  secondary market via SushiSwap.
                 </div>
               </Collapsible>
             </div>
 
             <div className='questions__item'>
               <Collapsible
-                trigger='When is the drop? How much does it cost?'
+                trigger='what is CRAYON?'
                 className='questions__head'
               >
                 <div className='questions__body'>
-                  The drop date is to be announced in October (follow our social
-                  channels for exact times). Mint price is 1 SOL.
+                  $CRAYONs are a key part of the Doodle Punks project, and will
+                  have a multitude of use cases as our project grows, from
+                  raffle entries, exclusive merchandise, alpha access, and of
+                  course breeding of Doodle Punks (soon to be announced). But we
+                  strongly feel that it is only scratching the surface of what
+                  $CRAYONs could do.
                 </div>
               </Collapsible>
             </div>

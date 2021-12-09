@@ -12,13 +12,21 @@ const Options = () => {
                   <h1>1</h1>
                 </div>
                 <div className='options__info'>
-                  Design
-                  <br />
-                  Execution
+                  Launch Doodle Punks Shop on <br />
+                  <a
+                    href='https://doodle-punks.com/'
+                    style={{ fontSize: ' 16px' }}
+                  >
+                    doodle-punks.com
+                  </a>
                 </div>
                 <div className='options__text'>
-                  Professionally design, test and create generative art
-                  collection of Bitty Tweeps (Gen 1).
+                  This shop will include: <br /> <br />
+                  Doodle Punk Merch <br />
+                  Vending Machine <br />
+                  Breeding Generators <br />
+                  Raffle Tickets <br />
+                  (Use $CRAYON Utility Token)
                 </div>
                 <div
                   className='status__note'
@@ -31,15 +39,9 @@ const Options = () => {
                 <div className='options__info'>
                   <h1>2</h1>
                 </div>
-                <div className='options__info'>
-                  NFT Token
-                  <br />
-                  Creation
-                </div>
+                <div className='options__info'>Launch VIP Channel.</div>
                 <div className='options__text'>
-                  Set up NFTs in accordance to Metaplex Token Metadata
-                  Standards. Upload assets on Arweave for safe and secure
-                  storage.
+                  Unlocked with $CRAYON Utility Token
                 </div>
                 <div
                   className='status__note'
@@ -53,13 +55,13 @@ const Options = () => {
                   <h1>3</h1>
                 </div>
                 <div className='options__info'>
-                  Comms Channels
+                  Launch
                   <br />
-                  Setup
+                  DAO
                 </div>
                 <div className='options__text'>
-                  Set up discord server and activate main twitter account for
-                  official Bitty Tweeps communications.
+                  Treasury to acquire/fractionalize/disperse Blue Chip NFTs,
+                  both from Doodles & CryptoPunks.
                 </div>
                 <div
                   className='status__note'
@@ -73,13 +75,13 @@ const Options = () => {
                   <h1>4</h1>
                 </div>
                 <div className='options__info'>
-                  Website Launch
+                  Buy Decentraland or Sandbox Land
                   <br />
-                  Phase I
+                  and begin development.
                 </div>
                 <div className='options__text'>
-                  Release official website (Phase 1) housing core information
-                  and featuring Web3 connectivity for NFT purchase.
+                  Portions of all royalty will continue to be used for Metaverse
+                  development.
                 </div>
                 <div
                   className='status__note'
@@ -93,14 +95,9 @@ const Options = () => {
                   <h1>5</h1>
                 </div>
                 <div className='options__info'>
-                  Marketing
-                  <br />
-                  Amplification
+                  Release <br /> Roadmap 2.0
                 </div>
-                <div className='options__text'>
-                  Utilize social communication channels to introduce Bitty
-                  Tweeps initiative.
-                </div>
+                <div className='options__text'></div>
                 <div
                   className='status__note'
                   style={{ backgroundColor: 'goldenrod' }}
@@ -112,15 +109,8 @@ const Options = () => {
                 <div className='options__info'>
                   <h1>6</h1>
                 </div>
-                <div className='options__info'>
-                  NFT Drop
-                  <br />
-                  Activation
-                </div>
-                <div className='options__text'>
-                  Turn on Bitty Tweeps mint incubator to initiate minting and
-                  sale on website.
-                </div>
+                <div className='options__info'>Begin Collection 2.0</div>
+                <div className='options__text'>(Female Doodle Punks)</div>
                 <div
                   className='status__note'
                   style={{ backgroundColor: 'palevioletred' }}
@@ -133,13 +123,12 @@ const Options = () => {
                   <h1>7</h1>
                 </div>
                 <div className='options__info'>
-                  Secondary Markets
+                  Doodle Punks
                   <br />
-                  Integration
+                  Malibu Meet-Up.
                 </div>
                 <div className='options__text'>
-                  Partner with reputable industry leading NFT secondary market
-                  provider.
+                  (After 1ETH Floor is reached)
                 </div>
                 <div
                   className='status__note'
@@ -150,16 +139,56 @@ const Options = () => {
               </div>
               <div className='options__item'>
                 <div className='options__info'>
-                  <h1>∞</h1>
+                  <h1>8</h1>
                 </div>
                 <div className='options__info'>
-                  Global
+                  Doodle Punks
                   <br />
-                  Domination
+                  Miami Yacht Party.
                 </div>
                 <div className='options__text'>
-                  Community effort in global outreach to increase Bitty Tweeps
-                  brand awareness. Plan new and exciting Phase II innovations.
+                  (After 5ETH Floor is reached)
+                </div>
+                <div
+                  className='status__note'
+                  style={{ backgroundColor: 'goldenrod' }}
+                >
+                  Ongoing
+                </div>
+              </div>
+
+              <div className='options__item'>
+                <div className='options__info'>
+                  <h1>9</h1>
+                </div>
+                <div className='options__info'>
+                  Launch
+                  <br />
+                  Breeding/Fusion.
+                </div>
+                <div className='options__text'>
+                  (After 5ETH Floor is reached)
+                </div>
+                <div
+                  className='status__note'
+                  style={{ backgroundColor: 'goldenrod' }}
+                >
+                  Ongoing
+                </div>
+              </div>
+
+              <div className='options__item'>
+                <div className='options__info'>
+                  <h1>10</h1>
+                </div>
+                <div className='options__info'>
+                  Metaverse
+                  <br />
+                  implementation.
+                </div>
+                <div className='options__text'>
+                  Collection 2.0 will be built specifically for
+                  Decentraland/Sandbox use.
                 </div>
                 <div
                   className='status__note'

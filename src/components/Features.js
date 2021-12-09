@@ -16,12 +16,15 @@ const Features = () => {
             data-aos='animation-scale-top'
             data-aos-duration='600'
           >
-            bitty tweeps are hatching soon
+            Experience the Highest, Utility NFT Collection Coming to the
+            Metaverse
           </h1>
           <div className='features__info'>
-            10,101 uniquely adorable bitty tweeps are on their way
+            10,000 Doodle Punks have been spotted with a $CRAYON in their hand
+            coloring & creating all types of designs on the Ethereum Blockchain.
             <br />
-            to hatch on the Solana blockchain.
+            This $CRAYON is their secret weapon to unlocking the endless
+            possibilities in the
           </div>
           <div className='features2__bg'>
             <div className='features2__preview'>
