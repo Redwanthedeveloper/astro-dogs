@@ -13,12 +13,6 @@ const Options = () => {
                 </div>
                 <div className='options__info'>
                   Launch Doodle Punks Shop on <br />
-                  <a
-                    href='https://doodle-punks.com/'
-                    style={{ fontSize: ' 16px' }}
-                  >
-                    doodle-punks.com
-                  </a>
                 </div>
                 <div className='options__text'>
                   This shop will include: <br /> <br />
@@ -28,12 +22,6 @@ const Options = () => {
                   Raffle Tickets <br />
                   (Use $CRAYON Utility Token)
                 </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'green' }}
-                >
-                  Completed
-                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
@@ -42,12 +30,6 @@ const Options = () => {
                 <div className='options__info'>Launch VIP Channel.</div>
                 <div className='options__text'>
                   Unlocked with $CRAYON Utility Token
-                </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'green' }}
-                >
-                  Completed
                 </div>
               </div>
               <div className='options__item'>
@@ -63,12 +45,6 @@ const Options = () => {
                   Treasury to acquire/fractionalize/disperse Blue Chip NFTs,
                   both from Doodles & CryptoPunks.
                 </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'green' }}
-                >
-                  Completed
-                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
@@ -83,12 +59,6 @@ const Options = () => {
                   Portions of all royalty will continue to be used for Metaverse
                   development.
                 </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'goldenrod' }}
-                >
-                  In progress
-                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
@@ -98,12 +68,6 @@ const Options = () => {
                   Release <br /> Roadmap 2.0
                 </div>
                 <div className='options__text'></div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'goldenrod' }}
-                >
-                  In progress
-                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
@@ -111,12 +75,6 @@ const Options = () => {
                 </div>
                 <div className='options__info'>Begin Collection 2.0</div>
                 <div className='options__text'>(Female Doodle Punks)</div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'palevioletred' }}
-                >
-                  To be announced
-                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
@@ -130,12 +88,6 @@ const Options = () => {
                 <div className='options__text'>
                   (After 1ETH Floor is reached)
                 </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'palevioletred' }}
-                >
-                  To be announced
-                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
@@ -148,12 +100,6 @@ const Options = () => {
                 </div>
                 <div className='options__text'>
                   (After 5ETH Floor is reached)
-                </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'goldenrod' }}
-                >
-                  Ongoing
                 </div>
               </div>
 
@@ -169,12 +115,6 @@ const Options = () => {
                 <div className='options__text'>
                   (After 5ETH Floor is reached)
                 </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'goldenrod' }}
-                >
-                  Ongoing
-                </div>
               </div>
 
               <div className='options__item'>
@@ -189,12 +129,6 @@ const Options = () => {
                 <div className='options__text'>
                   Collection 2.0 will be built specifically for
                   Decentraland/Sandbox use.
-                </div>
-                <div
-                  className='status__note'
-                  style={{ backgroundColor: 'black' }}
-                >
-                  Ongoing
                 </div>
               </div>
             </div>

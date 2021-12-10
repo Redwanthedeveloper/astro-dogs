@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
 import Popup from './Popup';
 import closeImage from '../images/close.svg';
@@ -21,20 +20,24 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='header__center center'>
-          <NavLink className='header__logo' to='/'>
-            <img className='header__pic header__pic_light' src={logo} alt='' />
-          </NavLink>
+          <a className='header__logo' href='/'>
+            <img
+              className='header__pic header__pic_light'
+              src={logo}
+              alt={logo}
+            />
+          </a>
           <div className='header__wrapper'>
             <nav className='header__nav'>
-              <NavLink className='header__link' to='/mint'>
-                Mint Incubator
-              </NavLink>
-              <NavLink className='header__link' to='/catalog'>
+              <a className='header__link' href='#dao'>
+                DAO
+              </a>
+              <a className='header__link' href='/catalog'>
                 Traits Explorer
-              </NavLink>
-              <NavLink className='header__link' to='/roadmap'>
+              </a>
+              <a className='header__link' href='/roadmap'>
                 Roadmap
-              </NavLink>
+              </a>
             </nav>
             <div className='header__btns'>
               <button
@@ -49,15 +52,15 @@ const Header = () => {
           {navShow && (
             <div className='header__wrapper visible'>
               <nav className='header__nav'>
-                <NavLink className='header__link' to='/mint'>
+                <a className='header__link' href='/mint'>
                   Mint Incubator
-                </NavLink>
-                <NavLink className='header__link' to='/catalog'>
+                </a>
+                <a className='header__link' href='/catalog'>
                   Traits Explorer
-                </NavLink>
-                <NavLink className='header__link' to='/roadmap'>
+                </a>
+                <a className='header__link' href='/roadmap'>
                   Roadmap
-                </NavLink>
+                </a>
               </nav>
               <div className='header__btns'>
                 <button

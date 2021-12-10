@@ -1,6 +1,4 @@
 import React from 'react';
-import incubator from '../images/incubator.png';
-import egg from '../images/egg2.png';
 import serum from '../images/serum.svg';
 import solana from '../images/solana.svg';
 import arweave from '../images/arweave.svg';
@@ -26,14 +24,7 @@ const Features = () => {
             This $CRAYON is their secret weapon to unlocking the endless
             possibilities in the
           </div>
-          <div className='features2__bg'>
-            <div className='features2__preview'>
-              <img src={incubator} style={{ maxWidth: '700px' }} alt='' />
-            </div>
-            <div className='features2__preview'>
-              <img src={egg} alt='' />
-            </div>
-          </div>
+
           <div className='main__partners'>
             <div className='main__info'>
               Powered by Leading and Trusted Next Generation Technologies

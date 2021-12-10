@@ -1,5 +1,5 @@
 import React from 'react';
-import astro2 from '../images/astro2.svg';
+import astro2 from '../images/about.png';
 const Quality = () => {
   return (
     <>
@@ -9,44 +9,28 @@ const Quality = () => {
             <div className='quality__bg' />
             <div className='share__row'>
               <div className='share__col'>
-                <h4 className='share__title h2'>Turning Up Good&nbsp;Vibes</h4>
+                <h4 className='share__title h2'>What are Doodle Punks</h4>
                 <div className='share__text h7'>
-                  Doodle Punks
+                  <br />A collection of 9,999 unique Doodle Punk avatars living
+                  on the Ethereum blockchain. Each one is algorithmically
+                  generated from a combination of over 200 individually drawn
+                  elements, to create legendary collections and 1/1 rarity.
                   <br />
                   <br />
-                  Doodle Punks is a DAO that brings immense value to the etherum
-                  blockchain through the implementation of several high utility
-                  functions: Staking our Utility Token, DAO Treasory, &
-                  Metaverse Development.
-                  <br />
-                  <br />
-                  The Dao Explained:
-                  <br />
-                  Our Token is backed by the fractionalized Treasury (Vault) of
-                  blue-chip NFTs (Doodles & CryptoPunks). As the value of our
-                  Vault increases, the intrinsic value of $CRAYON increases as
-                  well. However, It is essential to consider that 1 $CRAYON = 1
-                  $CRAYON for eternity. The real value of $CRAYON comes from the
-                  utilities within the Doodle Punk ecosystem.
+                  The Doodle Punks project is being developed with long-term,
+                  metaverse implementation in mind.From inception, the founders
+                  have envisioned 3D application, customizable features, and
+                  monetization elements to fully capitalize on the future of
+                  digital interaction & ownership.
                 </div>
               </div>
               <div className='share__col'>
                 <h4 className='share__title h4'>
-                  <object
-                    type='image/svg+xml'
-                    style={{
-                      maxWidth: '370px',
-                      display: 'block',
-                      margin: 'auto',
-                    }}
-                    data={astro2}
-                  >
-                    <img
-                      src={astro2}
-                      style={{ maxWidth: '370px', width: '100%' }}
-                      alt=''
-                    />
-                  </object>
+                  <img
+                    src={astro2}
+                    style={{ maxWidth: '370px', width: '100%' }}
+                    alt=''
+                  />
                 </h4>
               </div>
             </div>
