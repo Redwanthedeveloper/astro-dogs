@@ -1,9 +1,13 @@
 import React from 'react';
-import twitter from '../images/twitter.jpg';
+import cryptin from '../images/team/cryptin.jpg';
+import symphony from '../images/team/symphony.jpg';
+import defi from '../images/team/defi.png';
+import gabi from '../images/team/gabi.png';
+
 const About = () => {
   return (
     <>
-      <div className='about'>
+      <div className='about' id='team'>
         <div className='about__center center'>
           <div className='about__list'></div>
           <div className='about__wrap'>
@@ -12,67 +16,59 @@ const About = () => {
               data-aos='animation-scale-top'
               data-aos-duration='600'
             >
-              bitty tweeps team
+              Team
             </h2>
-            <div
+            {/* <div
               className='about__info'
               data-aos='animation-scale-top'
               data-aos-duration='600'
             >
               <span>❤</span> HQ All-Stars
-            </div>
+            </div> */}
             <div className='about__team'>
               <div className='about__user'>
                 <div className='about__ava'>
-                  <a href='#.' target='_blank'>
-                    <img src={twitter} alt='' />
+                  <a href='#.'>
+                    <img src={cryptin} alt='' />
                   </a>
                 </div>
                 <div className='about__category'>
-                  <a href='#.' target='_blank'>
-                    @mrtweeps23
-                  </a>
+                  <a href='https://twitter.com/NFTcryptin'>@NFTcryptin</a>
                 </div>
-                <div className='about__post'>Chief Tweeps Servant</div>
+                <div className='about__post'>Cryptin - Developer</div>
               </div>
               <div className='about__user'>
                 <div className='about__ava'>
-                  <a href='#.' target='_blank'>
-                    <img src={twitter} alt='' />
+                  <a href='https://twitter.com/NFTsym'>
+                    <img src={symphony} alt='' />
                   </a>
                 </div>
                 <div className='about__category'>
-                  <a href='#.' target='_blank'>
-                    @tweeeeeb
-                  </a>
+                  <a href='https://twitter.com/NFTsym'>@NFTsym</a>
                 </div>
-                <div className='about__post'>Development Guru</div>
+                <div className='about__post'>Symphony - Community Lead </div>
               </div>
               <div className='about__user'>
                 <div className='about__ava'>
-                  <a href='#.' target='_blank'>
-                    <img src={twitter} alt='' />
+                  <a href='https://twitter.com/Defi_Dood'>
+                    <img src={defi} alt='' />
                   </a>
                 </div>
                 <div className='about__category'>
-                  <a href='#.' target='_blank'>
-                    @tweepsieroll
-                  </a>
+                  <a href='https://twitter.com/Defi_Dood'>@Defi_Dood</a>
                 </div>
-                <div className='about__post'>Tweeps Designer</div>
+                <div className='about__post'>Defi Dood - Marketing </div>
               </div>
               <div className='about__user'>
                 <div className='about__ava'>
-                  <a href='#.' target='_blank'>
-                    <img src={twitter} alt='' />
+                  <a href='https://twitter.com/Boeroiu2'>
+                    <img src={gabi} alt='' />
                   </a>
                 </div>
                 <div className='about__category'>
-                  <a href='#.' target='_blank'>
-                    @tweepsndips
-                  </a>
+                  <a href='https://twitter.com/Boeroiu2'>@Boeroiu2</a>
                 </div>
-                <div className='about__post'>Tweeps Updates</div>
+                <div className='about__post'>Gabi - Artist</div>
               </div>
             </div>
           </div>

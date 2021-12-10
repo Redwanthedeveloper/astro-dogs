@@ -1,8 +1,4 @@
 import React from 'react';
-import serum from '../images/serum.svg';
-import solana from '../images/solana.svg';
-import arweave from '../images/arweave.svg';
-import metaplex from '../images/metaplex.svg';
 
 const Features = () => {
   return (
@@ -17,20 +13,20 @@ const Features = () => {
             Experience the Highest, Utility NFT Collection Coming to the
             Metaverse
           </h1>
-          <div className='features__info'>
+          {/* <div className='features__info'>
             10,000 Doodle Punks have been spotted with a $CRAYON in their hand
             coloring & creating all types of designs on the Ethereum Blockchain.
             <br />
             This $CRAYON is their secret weapon to unlocking the endless
             possibilities in the
-          </div>
+          </div> */}
 
           <div className='main__partners'>
-            <div className='main__info'>
+            {/* <div className='main__info'>
               Powered by Leading and Trusted Next Generation Technologies
-            </div>
+            </div> */}
             <div className='main__list'>
-              <div className='main__logo'>
+              {/* <div className='main__logo'>
                 <img src={serum} alt='' />
               </div>
               <div className='main__logo'>
@@ -41,7 +37,8 @@ const Features = () => {
               </div>
               <div className='main__logo'>
                 <img src={metaplex} alt='' />
-              </div>
+              </div> */}
+              {/* <Comments /> */}
             </div>
           </div>
         </div>

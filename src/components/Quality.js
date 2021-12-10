@@ -3,7 +3,7 @@ import astro2 from '../images/about.png';
 const Quality = () => {
   return (
     <>
-      <div className='quality'>
+      <div className='quality' id='about'>
         <div className='quality__center center'>
           <div className='share__container'>
             <div className='quality__bg' />
@@ -37,7 +37,7 @@ const Quality = () => {
           </div>
           <div className='quality__bottom'>
             <div className='quality__item'>
-              <div className='quality__counter'>10101</div>
+              <div className='quality__counter'>9,999</div>
               <div className='quality__category'>Generative Doodle Punks</div>
             </div>
             <div className='quality__item'>
@@ -46,9 +46,10 @@ const Quality = () => {
             </div>
             <div className='quality__item'>
               <div className='quality__counter'>
-                1<span className='quality__sign quality__sign_down'>◎</span>
+                .07
+                {/* <span className='quality__sign quality__sign_down'>◎</span> */}
               </div>
-              <div className='quality__category'>Solana to Mint</div>
+              <div className='quality__category'>ETH to Mint</div>
             </div>
           </div>
         </div>

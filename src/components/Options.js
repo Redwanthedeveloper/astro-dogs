@@ -9,84 +9,73 @@ const Options = () => {
             <div className='options__list'>
               <div className='options__item'>
                 <div className='options__info'>
-                  <h1>1</h1>
+                  <h1>1 </h1>
                 </div>
-                <div className='options__info'>
-                  Launch Doodle Punks Shop on <br />
-                </div>
+                <div className='options__info'>Artwork & Community</div>
                 <div className='options__text'>
-                  This shop will include: <br /> <br />
-                  Doodle Punk Merch <br />
-                  Vending Machine <br />
-                  Breeding Generators <br />
-                  Raffle Tickets <br />
-                  (Use $CRAYON Utility Token)
+                  Create a unique NFT collection and build a thriving online
+                  community that understands and shares our vision.
                 </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
                   <h1>2</h1>
                 </div>
-                <div className='options__info'>Launch VIP Channel.</div>
+                <div className='options__info'>Marketing & Growth</div>
                 <div className='options__text'>
-                  Unlocked with $CRAYON Utility Token
+                  Attract, inform, and excite new members to join the community.
+                  Demonstrate the value that token owners will receive.
                 </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
                   <h1>3</h1>
                 </div>
-                <div className='options__info'>
-                  Launch
-                  <br />
-                  DAO
-                </div>
+                <div className='options__info'>Mint & Reveal</div>
                 <div className='options__text'>
-                  Treasury to acquire/fractionalize/disperse Blue Chip NFTs,
-                  both from Doodles & CryptoPunks.
+                  Develop & deploy verified smart contract for a successful
+                  randomized mint and reveal for unique token rarities.
                 </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
                   <h1>4</h1>
                 </div>
-                <div className='options__info'>
-                  Buy Decentraland or Sandbox Land
-                  <br />
-                  and begin development.
-                </div>
+                <div className='options__info'>Initiate DAO</div>
                 <div className='options__text'>
-                  Portions of all royalty will continue to be used for Metaverse
-                  development.
+                  Launch DAO protocol to enable Doodle Punk owners to stake,
+                  vote, and redeem $CRAYON utility tokens.
                 </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
                   <h1>5</h1>
                 </div>
-                <div className='options__info'>
-                  Release <br /> Roadmap 2.0
+                <div className='options__info'>Vault Treasury</div>
+                <div className='options__text'>
+                  Begin acquiring key value assets like blue-chip NFT's and
+                  digital land to hold for long-term value, application, and
+                  fractionalization.
                 </div>
-                <div className='options__text'></div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
                   <h1>6</h1>
                 </div>
-                <div className='options__info'>Begin Collection 2.0</div>
-                <div className='options__text'>(Female Doodle Punks)</div>
+                <div className='options__info'> Develop Collection 2.0</div>
+                <div className='options__text'>
+                  Female Doodle Punk Companion collection - Breeding
+                  Capabilities
+                </div>
               </div>
               <div className='options__item'>
                 <div className='options__info'>
                   <h1>7</h1>
                 </div>
-                <div className='options__info'>
-                  Doodle Punks
-                  <br />
-                  Malibu Meet-Up.
-                </div>
+                <div className='options__info'>Malibu Community Meetup</div>
                 <div className='options__text'>
-                  (After 1ETH Floor is reached)
+                  Host an epic IRL party weekend in Malibu for our awesome
+                  members
                 </div>
               </div>
               <div className='options__item'>
@@ -94,12 +83,11 @@ const Options = () => {
                   <h1>8</h1>
                 </div>
                 <div className='options__info'>
-                  Doodle Punks
-                  <br />
-                  Miami Yacht Party.
+                  Develop Metaverse Implementation
                 </div>
                 <div className='options__text'>
-                  (After 5ETH Floor is reached)
+                  Launch Metaverse applications 3D avatars, build communal
+                  spaces, customizable assets to pioneer meta monetization.
                 </div>
               </div>
 
@@ -107,28 +95,10 @@ const Options = () => {
                 <div className='options__info'>
                   <h1>9</h1>
                 </div>
-                <div className='options__info'>
-                  Launch
-                  <br />
-                  Breeding/Fusion.
-                </div>
+                <div className='options__info'>Exclusive Miami Yacht Party</div>
                 <div className='options__text'>
-                  (After 5ETH Floor is reached)
-                </div>
-              </div>
-
-              <div className='options__item'>
-                <div className='options__info'>
-                  <h1>10</h1>
-                </div>
-                <div className='options__info'>
-                  Metaverse
-                  <br />
-                  implementation.
-                </div>
-                <div className='options__text'>
-                  Collection 2.0 will be built specifically for
-                  Decentraland/Sandbox use.
+                  The ultimate indicator of success and achievement. Yacht party
+                  for our OG holders, Diamond Holders, and 1/1 Legendary’s.
                 </div>
               </div>
             </div>

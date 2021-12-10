@@ -10,7 +10,7 @@ const Roadmap = () => {
             </h1>
             <p className='roadmap__desc features__info'>
               We are committed to progressively building, expanding and evolving
-              Bitty Tweeps through innovation, creativity and community
+              Doodle Punks through innovation, creativity and community
               solidarity.
             </p>
           </div>

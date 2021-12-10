@@ -5,7 +5,7 @@ import book from '../images/book2.png';
 const Questions = () => {
   return (
     <>
-      <div className='questions'>
+      <div className='questions' id='faq'>
         <div className='questions__center center'>
           <div className='questions__preview'>
             <img src={book} alt='' />
@@ -18,6 +18,29 @@ const Questions = () => {
             Frequently asked questions
           </h2>
           <div className='questions__list'>
+            <div className='questions__item'>
+              <Collapsible
+                trigger='When is the mint?'
+                className='questions__head'
+              >
+                <div className='questions__body'>
+                  The exclusive whitelist presale will begin on Dec 11th @ 6pm
+                  CET (12pm EST). Public sale will open Dec 12th @ 6pm CET.
+                </div>
+              </Collapsible>
+            </div>
+            <div className='questions__item'>
+              <Collapsible
+                trigger='How much will it cost?'
+                className='questions__head'
+              >
+                <div className='questions__body'>
+                  Each NFT will be .06 ETH for our Whitelist community, and .07
+                  ETH for the public sale. Gas fees not included and will vary.
+                </div>
+              </Collapsible>
+            </div>
+
             <div className='questions__item'>
               <Collapsible
                 trigger='What is Staking?'
@@ -37,7 +60,7 @@ const Questions = () => {
 
             <div className='questions__item'>
               <Collapsible
-                trigger='what is CRAYON?'
+                trigger='What is CRAYON?'
                 className='questions__head'
               >
                 <div className='questions__body'>
@@ -52,84 +75,51 @@ const Questions = () => {
             </div>
             <div className='questions__item'>
               <Collapsible
-                trigger='Can I mint on mobile?'
+                trigger='What are the traits and rarities?'
                 className='questions__head'
               >
                 <div className='questions__body'>
-                  Yes, you will be able to mint through Sollet on your mobile.
-                  We recommend connecting via computer with Phantom wallet for
-                  most optimal user experience.
+                  Every Doodle Punk has unique traits and attributes, but some
+                  traits are more rare and special than others. These rarities
+                  are often used to determine value but we think all of them are
+                  amazing.
                 </div>
               </Collapsible>
             </div>
             <div className='questions__item'>
               <Collapsible
-                trigger='Is there a limit?'
+                trigger='Do I get more benefits if I own more? '
                 className='questions__head'
               >
                 <div className='questions__body'>
-                  You can mint 1 bitty tweep at a time. You can mint as many
-                  times after each transaction.
+                  Yes. Fractions will be distributed based on how many Doodle
+                  Punks you have staked. The more you own, the more $CRAYON
+                  utility tokens you receive.
                 </div>
               </Collapsible>
             </div>
             <div className='questions__item'>
               <Collapsible
-                trigger='How many traits are there?'
+                trigger='What is the Utility Token?'
                 className='questions__head'
               >
                 <div className='questions__body'>
-                  There are 7 types of bitty tweeps that have over 156 possible
-                  traits across 9 different categories. You wil be able to see
-                  them soon in the Traits Explorer section of our website.
+                  $CRAYON will be an ERC-20 utility token airdropped to staked
+                  Doodle Punks NFTs. This token will have various uses within
+                  our ecosystem but it is key to understand that 1 $CRAYON = 1
+                  $CRAYON. And that it has no promise of value.
                 </div>
               </Collapsible>
             </div>
             <div className='questions__item'>
               <Collapsible
-                trigger='Do you have a rarity system?'
+                trigger='I have more questions, where can ask?'
                 className='questions__head'
               >
                 <div className='questions__body'>
-                  Yes we do! We have a 5-level rarity system ranging from
-                  ‘Common’ to 'Ultra Rare.' Traits and their rarity % will be
-                  posted in our fun and interactive Traits Explorer section
-                  post-launch.
-                </div>
-              </Collapsible>
-            </div>
-            <div className='questions__item'>
-              <Collapsible
-                trigger='Will there be a secondary market?'
-                className='questions__head'
-              >
-                <div className='questions__body'>
-                  We are actively looking to partner with a secondary market
-                  provider. Please stay tuned for more updates through our
-                  social communication channels.
-                </div>
-              </Collapsible>
-            </div>
-            <div className='questions__item'>
-              <Collapsible
-                trigger='Are there secondary sales royalties?'
-                className='questions__head'
-              >
-                <div className='questions__body'>
-                  Yes, royalties are set at 4.23%. We will store 10% of the
-                  royalties back into the community wallet to further grow the
-                  Bitty Tweeps initiatives (subject to review).
-                </div>
-              </Collapsible>
-            </div>
-            <div className='questions__item'>
-              <Collapsible
-                trigger='Do I own the bitty tweep after purchasing?'
-                className='questions__head'
-              >
-                <div className='questions__body'>
-                  Full intellectual properties of the bitty tweep are given to
-                  the buyer. Welcome to the Coop!
+                  You can reach out to us in our Discord at any time or by email
+                  at info@doodle-punks.com. Thank you, hope to hear from you
+                  soon!
                 </div>
               </Collapsible>
             </div>

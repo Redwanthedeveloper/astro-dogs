@@ -16,6 +16,10 @@ const Header = () => {
     setShow(true);
   };
 
+  const mobileNav = () => {
+    setNavShow(false);
+  };
+
   return (
     <>
       <header className='header'>
@@ -29,14 +33,20 @@ const Header = () => {
           </a>
           <div className='header__wrapper'>
             <nav className='header__nav'>
+              <a className='header__link' href='#about'>
+                About
+              </a>
               <a className='header__link' href='#dao'>
                 DAO
               </a>
-              <a className='header__link' href='/catalog'>
-                Traits Explorer
-              </a>
-              <a className='header__link' href='/roadmap'>
+              <a className='header__link' href='#roadmap'>
                 Roadmap
+              </a>
+              <a className='header__link' href='#team'>
+                Team
+              </a>
+              <a className='header__link' href='#faq'>
+                <span>FAQ</span>s
               </a>
             </nav>
             <div className='header__btns'>
@@ -52,14 +62,20 @@ const Header = () => {
           {navShow && (
             <div className='header__wrapper visible'>
               <nav className='header__nav'>
-                <a className='header__link' href='/mint'>
-                  Mint Incubator
+                <a className='header__link' href='#about' onClick={mobileNav}>
+                  About
                 </a>
-                <a className='header__link' href='/catalog'>
-                  Traits Explorer
+                <a className='header__link' href='#dao' onClick={mobileNav}>
+                  DAO
                 </a>
-                <a className='header__link' href='/roadmap'>
+                <a className='header__link' href='#roadmap' onClick={mobileNav}>
                   Roadmap
+                </a>
+                <a className='header__link' href='#team' onClick={mobileNav}>
+                  Team
+                </a>
+                <a className='header__link' href='#faq' onClick={mobileNav}>
+                  <span>FAQ</span>s
                 </a>
               </nav>
               <div className='header__btns'>

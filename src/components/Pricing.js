@@ -15,7 +15,7 @@ const Pricing = () => {
           </h2>
           <div className='download__info'>
             We are committed to progressively building, expanding and evolving
-            Bitty&nbsp;Tweeps&nbsp;through innovation, creativity and community
+            Doodle Punks through innovation, creativity and community
             solidarity.
           </div>
           <div

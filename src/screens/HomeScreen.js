@@ -1,6 +1,5 @@
 import React from 'react';
 import About from '../components/About';
-import Comments from '../components/Comments';
 import Dao from '../components/Dao';
 import Features from '../components/Features';
 import Header from '../components/Header';
@@ -18,7 +17,6 @@ const HomeScreen = () => {
       <Quality />
       <Dao />
       <RoadmapScreen />
-      <Comments />
       <About />
       <Questions />
     </>

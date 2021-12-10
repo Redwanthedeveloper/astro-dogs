@@ -8,7 +8,7 @@ const Footer = () => {
           <div className='footer__line'></div>
           <div className='footer__bottom'>
             <div className='footer__copyright center'>
-              © 2021 Bitty Tweeps. All rights reserved.
+              © 2021 Doodle Punks. All rights reserved.
             </div>
           </div>
         </div>

@@ -7,13 +7,13 @@ const Comments = () => {
     <>
       <div className='comment'>
         <div className='comment__center center'>
-          <h2
+          {/* <h2
             className='options__title h2'
             data-aos='animation-scale-top'
             data-aos-duration={600}
           >
             Bitty&nbsp;Tweeps Sneak&nbsp;Peeps
-          </h2>
+          </h2> */}
           <div className='comment__container'>
             <div className='comment__slider'>
               <OwlCarousel

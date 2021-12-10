@@ -5,8 +5,10 @@ import Pricing from '../components/Pricing';
 const RoadmapScreen = () => {
   return (
     <>
-      <Pricing />
-      <Options />
+      <div id='roadmap'>
+        <Pricing />
+        <Options />
+      </div>
     </>
   );
 };
