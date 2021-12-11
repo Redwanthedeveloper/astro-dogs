@@ -5251,6 +5251,72 @@ body.dark .about__ava {
   text-align: center;
   font-size: 3.5rem;
 }
+.err__msg {
+  color: red;
+}
+
+.buy__wrapper {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+.buy__wrapper span {
+  border: 2px solid #ddf3fe;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 32px;
+  padding: 0.25rem 0.5rem;
+}
+.buy__wrapper p {
+  font-weight: bold;
+  font-size: 32px;
+}
+.mint__btn__wrapper {
+  max-width: 50%;
+  width: 100%;
+  margin: auto;
+}
+.right__col {
+  max-width: 300%;
+  width: 100%;
+  margin: auto;
+}
+.mint__btn {
+  background: #ddf3fe;
+  margin: 1rem 0;
+}
+.mint__btn:hover {
+  background: #a6b6be;
+  color: #fff;
+}
+.mint__wrapper {
+  background: linear-gradient(90.33deg, #ffc7b36b 0.02%, #c2dbff91 98.92%);
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  padding: 2rem 0;
+  border-radius: 10px;
+}
+.mint__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mint__description {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.count {
+  text-align: center;
+}
+.mint__btn {
+  padding: 0 !important;
+  width: 100% !important;
+}
 
 .features__info {
   max-width: 700px;

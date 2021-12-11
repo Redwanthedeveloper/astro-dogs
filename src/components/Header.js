@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import logo from '../images/logo.png';
-import Popup from './Popup';
 import closeImage from '../images/close.svg';
+import Mint from './Mint';
+
 const Header = () => {
   const [show, setShow] = useState(false);
   const [navShow, setNavShow] = useState(false);
@@ -18,6 +19,7 @@ const Header = () => {
 
   const mobileNav = () => {
     setNavShow(false);
+    showModal();
   };
 
   return (
@@ -81,7 +83,10 @@ const Header = () => {
               <div className='header__btns'>
                 <button
                   className='header__btn btn btn_border'
-                  onClick={showModal}
+                  onClick={() => {
+                    showModal();
+                    mobileNav();
+                  }}
                 >
                   Connect Wallet
                 </button>
@@ -101,7 +106,7 @@ const Header = () => {
           </button>
         </div>
       </header>
-      {show && <Popup setShow={setShow} />}
+      {show && <Mint />}
     </>
   );
 };
