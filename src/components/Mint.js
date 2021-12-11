@@ -102,6 +102,7 @@ const Mint = ({ showModal }) => {
 
   useEffect(() => {
     getData();
+    // eslint-disable-next-line
   }, [blockchain.account]);
   return (
     <>
