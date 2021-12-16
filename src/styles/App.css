@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Finger Paint', cursive;
+}
+.banner {
+  background: url('../images/banner.png');
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* count */
+.count__section {
+  padding: 3rem 0;
+  background: #fde962;
+}
+
+.countdown__wrapper {
+  display: flex;
+  gap: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.countdown__main h1 {
+  padding: 1rem 0;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.days span,
+.hours span,
+.minutes span,
+.seconds span {
+  font-size: 1.75rem;
+}
+
+/* global */
+img {
+  max-width: 100%;
+  width: 100%;
+}
+h1 {
+  font-size: 4rem;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  outline: 0;
+  border: 4px solid #fff;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+  text-transform: uppercase;
+  background: none;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.err__msg {
+  text-align: center;
+}
+.mint__btn {
+  padding: 0.5rem 2.5rem;
+  transition: 0.4s ease;
+}
+
+.mint__btn:hover {
+  background: #ee85fd;
+}
+
+.buy__wrapper {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+.buy__wrapper p,
+.buy__wrapper button {
+  font-size: 2rem;
+}
+.buy__wrapper button {
+  border-radius: 10px;
+  padding: 0 20px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* section */
+.header__logo img {
+  max-width: 180px;
+  width: 100%;
+}
+.header__logo {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.main__wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+  gap: 2rem;
+  height: 100%;
+  align-items: center;
+}
+.max-w-full {
+  max-width: 100%;
+  width: 100%;
+}
+.slick-next {
+  right: 0 !important;
+}
+.slick-prev {
+  left: 0 !important;
+  z-index: 999;
+}
+.right__col {
+  font-family: 'Finger Paint', cursive;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-self: flex-start;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .countdown__main h1 {
+    text-align: center;
+  }
+  .countdown__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .right__col {
+    justify-self: center;
+    width: 50vw;
+    margin: auto;
+  }
+  .left__col: {
+    display: none;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .countdown__main h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .banner {
+    height: 75vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-size: 1.25rem;
+  }
+
+  .days span,
+  .hours span,
+  .minutes span,
+  .seconds span {
+    font-size: 0.75rem;
+  }
+  .countdown__wrapper {
+    gap: 1.75rem;
+  }
+  .main__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .right__col {
+    margin-top: 1rem;
+    width: 70vw;
+    margin: auto;
+  }
+
+  .err__msg {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+}
