@@ -8,7 +8,7 @@ const Faq = () => {
         className='mt-8 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-24 lg:mb-24 text-center  break-words'
         id='faq'
       >
-        <h2 className='text-primary sm:text-center text-2xl sm:text-4xl tracking-wide leading-normal font-bold mb-6 sm:mb-10 uppercase text-default py-8'>
+        <h2 className='text-primary sm:text-center text-2xl sm:text-4xl tracking-wide leading-normal font-bold mb-6 sm:mb-10 uppercase text-white py-8'>
           Faq
         </h2>
         <div className='px-4 pt-4 sm:pt-8'>

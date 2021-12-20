@@ -104,16 +104,16 @@ const Banner = () => {
   }, [blockchain.account]);
   return (
     <>
-      <div className='banner h-[32rem] relative'>
+      <div className='banner h-[100vh] relative'>
         <div className='container mx-auto'>
-          <div className='banner__inner flex flex-col gap-6 justify-center items-center h-96 lg:h-72 absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 w-4/5 lg:w-2/6 bg-[#c7ecff] mx-auto rounded-lg px-6'>
-            <p className='text-center text-base  text-default'>
+          <div className='banner__inner flex flex-col gap-6 justify-center items-center h-96 lg:h-72 absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 w-4/5 lg:w-2/6 bg-[#032452e3] mx-auto rounded-lg px-6'>
+            <p className='text-center text-base  text-white'>
               {data.totalSupply} / {CONFIG.MAX_SUPPLY} 0.1 ETH each
             </p>
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
-                <p className='font-bold text-default'>The sale has ended.</p>
-                <p className='font-bold text-default'>
+                <p className='font-bold text-white'>The sale has ended.</p>
+                <p className='font-bold text-white'>
                   You can still find {CONFIG.NFT_NAME} on
                 </p>
 
@@ -130,12 +130,12 @@ const Banner = () => {
                 {blockchain.account === '' ||
                 blockchain.smartContract === null ? (
                   <>
-                    <p className='text-default font-semibold'>
+                    <p className='text-white font-semibold'>
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </p>
                     <div className='connect bg-[#7eaefb2f] lg:py-4 lg:px-12 py-4 px-8 rounded-sm hover:bg-[#b2b0f2] transition-all delay-100'>
                       <button
-                        className='uppercase text-default'
+                        className='uppercase text-white'
                         onClick={(e) => {
                           e.preventDefault();
                           dispatch(connect());
@@ -147,7 +147,7 @@ const Banner = () => {
                     </div>
                     {blockchain.errorMsg !== '' ? (
                       <>
-                        <p className='err__msg text-center text-default'>
+                        <p className='err__msg text-center text-white'>
                           {blockchain.errorMsg}
                         </p>
                       </>
@@ -155,13 +155,13 @@ const Banner = () => {
                   </>
                 ) : (
                   <>
-                    <p className='err__msg text-center text-default'>
+                    <p className='err__msg text-center text-white'>
                       {feedback}
                     </p>
 
                     <>
                       <div className='buy__wrapper flex gap-6'>
-                        <div className='bg-[#7eaefb2f] px-4 py-0.5 rounded-sm text-default font-bold cursor-pointer'>
+                        <div className='bg-[#7eaefb2f] px-4 py-0.5 rounded-sm text-white font-bold cursor-pointer'>
                           <button
                             className=''
                             disabled={claimingNft ? 1 : 0}
@@ -174,10 +174,10 @@ const Banner = () => {
                           </button>
                         </div>
 
-                        <p className='text-default font-bold text-xl border px-4 py-0.5 rounded-sm'>
+                        <p className='text-white font-bold text-xl border px-4 py-0.5 rounded-sm'>
                           {mintAmount}
                         </p>
-                        <div className='bg-[#7eaefb2f] px-4 py-0.5 rounded-sm text-default font-bold cursor-pointer'>
+                        <div className='bg-[#7eaefb2f] px-4 py-0.5 rounded-sm text-white font-bold cursor-pointer'>
                           <button
                             className=''
                             disabled={claimingNft ? 1 : 0}
@@ -195,7 +195,7 @@ const Banner = () => {
                       <div>
                         <div className='mint__btn__wrapper bg-[#7eaefb2f] lg:py-4 lg:px-12 py-4 px-8 rounded-sm hover:bg-[#b2b0f2] transition-all delay-100'>
                           <button
-                            className='btn mint__btn text-default'
+                            className='btn mint__btn text-white font-medium'
                             disabled={claimingNft ? 1 : 0}
                             onClick={(e) => {
                               e.preventDefault();

@@ -10,7 +10,7 @@ const Footer = () => {
               <a href='#.'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  className='ionicon w-12 h-12 text-default'
+                  className='ionicon w-12 h-12 text-white'
                   viewBox='0 0 512 512'
                   width='32'
                   height='32'
@@ -23,7 +23,7 @@ const Footer = () => {
               <a href='#.'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  className='ionicon w-12 h-12 text-default'
+                  className='ionicon w-12 h-12 text-white'
                   viewBox='0 0 512 512'
                   width='32'
                   height='32'
@@ -33,7 +33,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-            <p className='text-center text-base text-default py-4'>
+            <p className='text-center text-base text-white py-4'>
               2021 copyrights reserved by Astrodogs
             </p>
           </div>

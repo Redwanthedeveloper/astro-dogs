@@ -11,10 +11,10 @@ const Rarity = () => {
               data-aos='fade-right'
               data-aos-duration='1000'
             >
-              <h1 className='font-normal text-4xl text-center pb-6 lg:pb-12 text-default lg:text-left lg:text-5xl'>
+              <h1 className='font-normal text-4xl text-center pb-6 lg:pb-12 text-white lg:text-left lg:text-5xl'>
                 Each Toadle is unique and special!
               </h1>
-              <p className='text-center text-default text-base lg:text-left leading-8 lg:text-xl'>
+              <p className='text-center text-white text-base lg:text-left leading-8 lg:text-xl'>
                 Toadle is generated from over 40 attributes based on rarity. It
                 is never the same. From skin, background, hats, outfit,
                 accessory the rarer the attributes, the rater your toadle will
