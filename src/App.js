@@ -1,21 +1,15 @@
-import './App.css';
 import HomeScreen from './screens/HomeScreen';
-import Footer from './components/Footer';
-import History from './components/History';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import { useEffect } from 'react';
-import Aos from 'aos';
 
 function App() {
   useEffect(() => {
-    Aos.init({
-      useClassNames: false,
-    });
+    AOS.init();
   }, []);
   return (
     <>
       <HomeScreen />
-      <History />
-      <Footer />
     </>
   );
 }

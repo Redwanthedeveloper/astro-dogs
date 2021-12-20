@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background: #ddf3ff;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1140px !important;
+}
+.item__content::before {
+  content: '';
+  height: 30px;
+  width: 30px;
+  background: #382754;
+  position: absolute;
+  left: 50%;
+  border-radius: 50%;
+}
+
+.item__content::after {
+  content: '';
+  width: 10px;
+  height: 100%;
+  background: #4f5faa;
+  position: absolute;
+  left: 51%;
+  top: 0;
+  z-index: -1;
+  border-top-radius: 30px;
+}
+
+.roadmap__content::before {
+  content: '';
+  background: #c7ecff;
+  width: 2.25rem;
+  height: 100%;
+  position: absolute;
+  border-radius: 3rem;
+  z-index: 999;
+  left: 50%;
+  top: 0;
+  transform: translate(-18px, -10px);
+  border: 5px solid #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap__content::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .item__content::before,
+  .item__content::after {
+    display: none;
+  }
+}
