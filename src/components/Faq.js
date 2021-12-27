@@ -20,7 +20,7 @@ const Faq = () => {
             <div className='py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75'>
               <SingleFaq
                 title='What is the total supply of Astro Dogs?'
-                content='he total supply of Astro Dogs is 5,555.'
+                content='The total supply of Astro Dogs is 5,555.'
               />
             </div>
           </div>

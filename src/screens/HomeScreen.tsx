@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import About from '../components/About';
 import Banner from '../components/Banner';
-import CountDown from '../components/CountDown';
+// import CountDown from '../components/CountDown';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -109,7 +109,7 @@ const HomeScreen = () => {
       </ThemeProvider>
             
      
-      <CountDown />
+      {/* <CountDown /> */}
       <About />
       <ImageSlider />
       <Roadmap />

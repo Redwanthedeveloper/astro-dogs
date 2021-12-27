@@ -14,7 +14,8 @@ body {
   background: linear-gradient(180deg, #031436, #02214f);
 }
 
-.main__bg {
+.hid {
+  display: none !important;
 }
 .banner {
   background: url('../images/banner.jpg');

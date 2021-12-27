@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='container mx-auto'>
           <div className='footer__inner px-6'>
             <div className='social__links flex justify-center items-center gap-8'>
-              <a href='#.'>
+              <a href='https://discord.gg/PnDbbGpe/'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='ionicon w-12 h-12 text-white'
@@ -20,7 +20,7 @@ const Footer = () => {
                   <path d='M212.05 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.8 0 24.7-11.83 24.7-26.57.25-14.76-10.9-26.57-24.7-26.57zM300.43 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.81 0 24.7-11.83 24.7-26.57S314 218 300.43 218z' />
                 </svg>
               </a>
-              <a href='#.'>
+              <a href='https://twitter.com/AstrodogNFT'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='ionicon w-12 h-12 text-white'
