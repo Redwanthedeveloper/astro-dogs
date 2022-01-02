@@ -25,13 +25,10 @@ const Roadmap = () => {
               <ul className='list-disc'>
                 <li>35000 Discord Members</li>
                 <li>Youtubers, Tik Tok, NFT influencer promotion</li>
-                <li>
-                  Heavy advertisements billboards in LA and Promotion at all the
-                  major
-                </li>
-                <li>SoCal Universities/Parties</li>
-                <li>NFT DROP/NFT SELL OUT</li>
-                <li>Malibu Meetup for Holders </li>
+                <li>Advertisements in LA and SoCal Universities</li>
+                <li>Giveaways and teasers</li>
+                <li>Focus on partnerships and collaborations</li>
+                <li>NFT DROP & SELL OUT</li>
               </ul>
             </div>
           </div>
@@ -47,7 +44,10 @@ const Roadmap = () => {
             </div>
             <div className='text-left text-white px-6'>
               <ul className='list-disc'>
-                <li>Exclusive Beverly Hills Mansion Party for ALL Holders</li>
+                <li>
+                  Exclusive Beverly Hills Mansion Party for ALL Super Rare
+                  Holders
+                </li>
                 <li>60000 Discord Members</li>
                 <li>Applications for all major NFT exchanges</li>
                 <li>Game Development Begins</li>

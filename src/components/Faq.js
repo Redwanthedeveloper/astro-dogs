@@ -33,7 +33,7 @@ const Faq = () => {
             <div className='py-4 sm:py-6  w-full text-sm sm:text-lg font-bold text-left focus:outline-none focus-visible:ring focus-visible:ring-opacity-75'>
               <SingleFaq
                 title='When is the release date of Astro Dogs?'
-                content='The release date is still TBA, but we are looking to drop this project to the public in January of 2022. The presale for whitelisted members will be a day before public drop.'
+                content='The release date is still TBA, but we are looking to drop this project to the public on January 30, 2022. The presale for whitelisted members will be a day before public drop.'
               />
             </div>
           </div>

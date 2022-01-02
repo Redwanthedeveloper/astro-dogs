@@ -23,8 +23,8 @@ const About = () => {
               <p className='text-center text-white text-base lg:text-left leading-8 lg:text-xl'>
                 A collection of 5,555 unique Astro Dog avatars living on the
                 Solana network. Each one is algorithmically generated from a
-                combination of over 200 individually drawn elements, to create
-                legendary collections and 1/1 rarity.
+                combination of over 200 individually drawn elements, to create a
+                Legendary Collection and 1/1 Rarity.
                 <br />
               </p>
             </div>
